@@ -20,7 +20,7 @@ public class PrintPrimes
 	   else
 	      return false;
 	}
-	private static void printPrimes (int n)
+	static void printPrimes (int n)
 	{
 	   int curPrime;           // Value currently considered for primeness
 	   int numPrimes;          // Number of primes found so far.
