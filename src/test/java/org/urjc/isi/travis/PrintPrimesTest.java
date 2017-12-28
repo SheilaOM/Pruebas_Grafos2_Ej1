@@ -21,4 +21,10 @@ public class PrintPrimesTest
 		PrintPrimes.printPrimes(1);
 		assertEquals("Prime: 2\n", outContent.toString());
 	}
+	
+	@Test
+	public void Apartado7_Test1() {
+		PrintPrimes.printPrimes(3);
+		assertEquals("Prime: 2\nPrime: 3\nPrime: 5\n", outContent.toString());
+	}
 }
